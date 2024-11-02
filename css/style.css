@@ -614,6 +614,7 @@ body{
     left: 713px;
     font-size: 24px;
     color: #fff;
+    transition: color 0.3s ease;
 }
 .passeios {
     position: absolute;
@@ -621,6 +622,7 @@ body{
     left: 874px;
     font-size: 24px;
     color: #fff;
+    transition: color 0.3s ease;
 }
 .destinos {
     position: absolute;
@@ -628,14 +630,22 @@ body{
     left: 1053px;
     font-size: 24px;
     color: #fff;
+    transition: color 0.3s ease;
 }
-.avaliaes {
+.avaliacoes {
     position: absolute;
     top: 26px;
     left: 1216px;
     font-size: 24px;
     color: #fff;
+    transition: color 0.3s ease;
 }
+
+.home:hover, .passeios:hover, .destinos:hover, .avaliacoes:hover {
+    color: orange; /* Cor laranja ao passar o mouse */
+}
+
+
 .travel-website-child3 {
     position: absolute;
     top: 4010px;
@@ -837,14 +847,22 @@ body{
     width: 41px;
     height: 41px;
 }
-.facebook-logo-1-icon {
+.facebook-logo-1-icon  {
+    
     position: absolute;
     top: 4242px;
     left: 965px;
     width: 35px;
     height: 35px;
     object-fit: cover;
+    transition: color 0.3s ease;
 }
+
+.facebook-logo-1-icon:hover {
+    filter: sepia(1) saturate(5) hue-rotate(-25deg); /* Aproxima um laranja */
+}
+
+
 .travel-website-child4 {
     position: absolute;
     top: 4239px;
@@ -864,7 +882,13 @@ body{
     width: 37px;
     height: 37px;
     object-fit: cover;
+    transition: color 0.3s ease;
 }
+
+.instagram-logo-1-icon:hover {
+    filter: sepia(1) saturate(5) hue-rotate(-25deg); /* Aproxima um laranja */
+}
+
 .travel-website-child5 {
     position: absolute;
     top: 4239px;
@@ -883,7 +907,14 @@ body{
     width: 37px;
     height: 37px;
     object-fit: cover;
+    transition: color 0.3s ease;
 }
+
+.twitter-logo-1-icon:hover {
+    filter: sepia(1) saturate(5) hue-rotate(-25deg); /* Aproxima um laranja */
+}
+
+
 .buscar {
     position: absolute;
     top: 9px;
@@ -1045,12 +1076,3 @@ body{
     font-family: Poppins;
 }
 
-.instagram-logo-1-icon :hover > *{
-    background-color: #ffad32;
-    position: absolute;
-    top: 4241px;
-    left: 1024px;
-    width: 37px;
-    height: 37px;
-    object-fit: cover;
-}
